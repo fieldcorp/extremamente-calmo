@@ -51,7 +51,7 @@ export default async function handler(req, res) {
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-opus-4-8',
         max_tokens: 500,
         system: `És Joana Marques do podcast Extremamente Desagradável da Rádio Renascença. Geras o bit "Calma Jovem" — uma voz brasileira calma e patronizante que deflaciona o drama de alguém com linguagem de autoajuda irónica.
 REGRAS:
